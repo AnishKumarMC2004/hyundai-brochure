@@ -1,0 +1,67 @@
+@media (min-width: 768px) {
+  .hero-grid { grid-template-columns: 1.05fr .95fr; gap: 2rem; }
+  .featured-panel { grid-template-columns: .95fr 1.05fr; }
+  .features-grid { grid-template-columns: repeat(3, minmax(0,1fr)); }
+  .tech-grid { grid-template-columns: repeat(3, minmax(0,1fr)); }
+  .gallery-grid { grid-template-columns: repeat(3, minmax(0,1fr)); }
+  .stats-grid { grid-template-columns: repeat(4, minmax(0,1fr)); }
+  .vehicle-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+}
+
+@media (min-width: 1024px) {
+  .vehicle-grid { grid-template-columns: repeat(3, minmax(0,1fr)); }
+}
+
+@media (max-width: 767px) {
+  .navbar { border-radius: 24px; padding: .9rem 1rem; position: relative; }
+  .nav-links {
+    position: absolute;
+    top: calc(100% + .6rem);
+    left: 0;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    gap: .4rem;
+    padding: .8rem;
+    border-radius: 20px;
+    background: rgba(8,8,8,.96);
+    border: 1px solid rgba(255,255,255,.08);
+    box-shadow: 0 16px 40px rgba(0,0,0,.28);
+  }
+  .nav-links.open { display: flex; }
+  .mobile-nav-toggle {
+    display: inline-flex;
+    flex-direction: column;
+    gap: .23rem;
+    border: 0;
+    background: transparent;
+    padding: .25rem;
+  }
+  .mobile-nav-toggle span {
+    width: 24px;
+    height: 2px;
+    background: var(--accent-strong);
+    display: block;
+    transition: transform .25s ease;
+  }
+  .mobile-nav-toggle.active span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+  .mobile-nav-toggle.active span:nth-child(2) { opacity: 0; }
+  .mobile-nav-toggle.active span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+  .hero { padding-top: 1rem; }
+  .hero-actions { flex-direction: column; align-items: stretch; }
+  .hero-highlights { grid-template-columns: 1fr; }
+  .section-title { flex-direction: column; align-items: flex-start; }
+  .footer-shell { flex-direction: column; align-items: flex-start; }
+  .modal-gallery, .spec-grid, .modal-meta { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+  .container { width: min(100% - 1rem, 1200px); }
+  .hero-copy h1 { font-size: 2.2rem; }
+  .hero-panel { padding: .75rem; }
+  .hero-badge { font-size: .72rem; }
+  .hero-float-card { position: static; margin-top: .7rem; }
+  .hero-visual { min-height: 280px; }
+  .vehicle-card__content { padding: 1rem; }
+  .modal-card { border-radius: 22px; }
+}

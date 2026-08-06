@@ -1,30 +1,2529 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Joel| Hyundai Sales Executive, Ozhuginasery</title>
+  <meta name="description"
+    content="Joel  — Hyundai Sales Executive in Ozhuginasery. Personalised consultation, best exchange offers, easy finance and doorstep test drives across the Hyundai range." />
+  <meta name="theme-color" content="#002C5F" />
 
-    <title>Product Brochure</title>
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Joel | Hyundai Sales Executive, Ozhuginasery" />
+  <meta property="og:description"
+    content="Personalised Hyundai consultation, best exchange offers, easy finance and doorstep test drives." />
+  <meta property="og:image" content="assets/images/joel.png" />
 
-    <link rel="stylesheet" href="style.css">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Joel | Hyundai Sales Executive, Ozhuginasery" />
+  <meta name="twitter:description"
+    content="Personalised Hyundai consultation, best exchange offers, easy finance and doorstep test drives." />
 
+  <!-- Schema.org LocalBusiness -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutomotiveBusiness",
+  "name": "Joel — Hyundai Sales Executive",
+  "image": "assets/images/joel.png",
+  "telephone": "+91-93842-22353",
+  "email": "joeljack629@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Derik Square, Tirunelveli Main Road, Ozhuginasery",
+    "addressLocality": "Nagercoil",
+    "addressRegion": "Tamil Nadu",
+    "postalCode": "629001",
+    "addressCountry": "IN"
+  },
+  "openingHours": "Mo-Sa 09:30-20:00",
+  "priceRange": "₹₹"
+}
+</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <style>
+    /* ==========================================================================
+   TOKENS
+   ========================================================================== */
+    :root {
+      --navy: #F5F5F5;
+      --navy-deep: #000000;
+      --royal: #D4AF37;
+      --cyan: #8CB9FF;
+      --bg: #050505;
+      --white: #0F0F0F;
+      --dark: #F5F5F5;
+      --ink: #F5F5F5;
+      --muted: #A7A7A7;
+      --line: rgba(255, 255, 255, 0.14);
+      --glass: rgba(255, 255, 255, 0.06);
+      --glass-border: rgba(255, 255, 255, 0.14);
+      --silver: linear-gradient(135deg, #121212, #2A2A2A, #6A5A1D, #F8E7A8);
+      --radius: 18px;
+      --radius-lg: 26px;
+      --shadow-sm: 0 6px 18px rgba(0, 0, 0, 0.35);
+      --shadow-md: 0 18px 40px rgba(0, 0, 0, 0.45);
+      --shadow-lg: 0 30px 70px rgba(0, 0, 0, 0.55);
+      --display: 'Space Grotesk', 'Manrope', sans-serif;
+      --body: 'Inter', sans-serif;
+      --data: 'JetBrains Mono', monospace;
+      --ease: cubic-bezier(.22, 1, .36, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--body);
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(212, 175, 55, 0.16), transparent 26%),
+        linear-gradient(135deg, #020202 0%, #090909 55%, #000000 100%);
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    button {
+      font-family: inherit;
+    }
+
+    ::selection {
+      background: var(--cyan);
+      color: var(--white);
+    }
+
+    /* Focus visibility */
+    a:focus-visible,
+    button:focus-visible {
+      outline: 2px solid var(--cyan);
+      outline-offset: 3px;
+      border-radius: 6px;
+    }
+
+    .logo {
+      width: 120px;
+      height: auto;
+
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+
+      *,
+      *::before,
+      *::after {
+        animation-duration: .001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .001ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+
+    .container {
+      width: min(1180px, calc(100% - 2rem));
+      margin: 0 auto;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      font-family: var(--data);
+      font-size: .72rem;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      color: var(--royal);
+      margin: 0 0 .6rem;
+    }
+
+    .eyebrow::before {
+      content: '';
+      width: 18px;
+      height: 2px;
+      background: var(--cyan);
+      display: inline-block;
+    }
+
+    section {
+      padding: 4.6rem 0;
+    }
+
+    .section-head {
+      max-width: 640px;
+      margin: 0 0 2.2rem;
+    }
+
+    .section-head h2 {
+      font-family: var(--display);
+      font-size: clamp(1.7rem, 4vw, 2.5rem);
+      margin: 0 0 .6rem;
+      color: #F8F8F8;
+      letter-spacing: -.02em;
+      line-height: 1.1;
+    }
+
+    .section-head p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 1.02rem;
+      line-height: 1.6;
+    }
+
+    /* ==========================================================================
+   LOADER
+   ========================================================================== */
+    .loader {
+      position: fixed;
+      inset: 0;
+      z-index: 200;
+      background: var(--navy-deep);
+      display: grid;
+      place-items: center;
+      transition: opacity .6s var(--ease), visibility .6s var(--ease);
+    }
+
+    .loader.hidden {
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    .loader-shell {
+      text-align: center;
+    }
+
+    .loader-logo {
+      font-family: var(--display);
+      font-weight: 700;
+      font-size: 1.6rem;
+      letter-spacing: .3em;
+      color: var(--white);
+      margin-bottom: 1.1rem;
+    }
+
+    .loader-line {
+      width: 220px;
+      height: 3px;
+      background: rgba(255, 255, 255, .14);
+      border-radius: 999px;
+      overflow: hidden;
+      margin: 0 auto .8rem;
+    }
+
+    .loader-bar {
+      height: 100%;
+      width: 0;
+      background: linear-gradient(90deg, var(--cyan), var(--white));
+      transition: width .3s ease;
+    }
+
+    .loader-text {
+      font-family: var(--data);
+      font-size: .75rem;
+      letter-spacing: .18em;
+      color: rgba(255, 255, 255, .55);
+      text-transform: uppercase;
+    }
+
+    .scroll-progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 0%;
+      height: 3px;
+      background: linear-gradient(90deg, var(--royal), var(--cyan));
+      z-index: 120;
+    }
+
+    /* ==========================================================================
+   HEADER
+   ========================================================================== */
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 90;
+      padding: .9rem 0;
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: .7rem .9rem .7rem 1.2rem;
+      border-radius: 999px;
+      background: rgba(10, 10, 10, 0.9);
+      border: 1px solid var(--glass-border);
+      backdrop-filter: blur(18px) saturate(160%);
+      box-shadow: var(--shadow-sm);
+      transition: box-shadow .3s ease, background .3s ease;
+    }
+
+    .header.scrolled .navbar {
+      box-shadow: var(--shadow-md);
+      background: rgba(12, 12, 12, 0.95);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: .55rem;
+      font-family: var(--display);
+      font-weight: 700;
+      letter-spacing: .08em;
+      color: var(--navy);
+      font-size: 1.02rem;
+    }
+
+    .brand .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--cyan);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: .2rem;
+    }
+
+    .nav-links a {
+      color: var(--muted);
+      font-size: .92rem;
+      font-weight: 500;
+      padding: .65rem .9rem;
+      border-radius: 999px;
+      transition: background .25s ease, color .25s ease;
+    }
+
+    .nav-links a:hover {
+      background: rgba(212, 175, 55, .16);
+      color: var(--ink);
+    }
+
+    .nav-cta {
+      padding: .65rem 1.1rem;
+      border-radius: 999px;
+      background: var(--navy);
+      color: var(--white) !important;
+      font-weight: 600;
+      font-size: .88rem;
+      transition: transform .25s var(--ease), background .25s ease;
+    }
+
+    .nav-cta:hover {
+      background: var(--royal);
+      transform: translateY(-2px);
+    }
+
+    .mobile-nav-toggle {
+      display: none;
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      border: 0;
+      background: rgba(0, 44, 95, .08);
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      cursor: pointer;
+    }
+
+    .mobile-nav-toggle span {
+      width: 18px;
+      height: 2px;
+      background: var(--navy);
+      border-radius: 2px;
+      transition: transform .25s ease, opacity .25s ease;
+    }
+
+    .mobile-nav-toggle.open span:nth-child(1) {
+      transform: translateY(6px) rotate(45deg);
+    }
+
+    .mobile-nav-toggle.open span:nth-child(2) {
+      opacity: 0;
+    }
+
+    .mobile-nav-toggle.open span:nth-child(3) {
+      transform: translateY(-6px) rotate(-45deg);
+    }
+
+    .nav-drawer {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 95;
+      background: rgba(0, 26, 61, .92);
+      backdrop-filter: blur(10px);
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: .5rem;
+    }
+
+    .nav-drawer.open {
+      display: flex;
+    }
+
+    .nav-drawer a {
+      color: #fff;
+      font-size: 1.3rem;
+      font-family: var(--display);
+      padding: .8rem 1.2rem;
+    }
+
+    .nav-drawer .btn {
+      margin-top: 1.2rem;
+    }
+
+    .nav-drawer-close {
+      position: absolute;
+      top: 1.4rem;
+      right: 1.4rem;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, .12);
+      border: 0;
+      color: #fff;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+
+    /* ==========================================================================
+   BUTTONS
+   ========================================================================== */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: .5rem;
+      padding: .95rem 1.35rem;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: .95rem;
+      border: 1px solid transparent;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: transform .25s var(--ease), box-shadow .25s var(--ease), background .25s ease, color .25s ease, border-color .25s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--navy), var(--royal));
+      color: var(--white);
+      box-shadow: 0 14px 28px rgba(0, 44, 95, .28);
+    }
+
+    .btn-primary:hover {
+      box-shadow: 0 18px 36px rgba(0, 44, 95, .36);
+    }
+
+    .btn-outline {
+      background: rgba(255, 255, 255, .06);
+      color: var(--ink);
+      border-color: rgba(255, 255, 255, .16);
+      backdrop-filter: blur(10px);
+    }
+
+    .btn-outline:hover {
+      background: rgba(255, 255, 255, .12);
+      border-color: var(--royal);
+    }
+
+    .btn-cyan {
+      background: var(--cyan);
+      color: var(--white);
+      box-shadow: 0 14px 28px rgba(140, 185, 255, .2);
+    }
+
+    .btn-cyan:hover {
+      box-shadow: 0 18px 36px rgba(140, 185, 255, .3);
+    }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--ink);
+      border-color: rgba(255, 255, 255, .16);
+    }
+
+    .btn-ghost:hover {
+      background: rgba(212, 175, 55, .12);
+    }
+
+    .btn-sm {
+      padding: .7rem 1.05rem;
+      font-size: .86rem;
+    }
+
+    .btn-block {
+      width: 100%;
+    }
+
+    /* ==========================================================================
+   HERO
+   ========================================================================== */
+    .hero {
+      padding: 2.4rem 0 3.5rem;
+    }
+
+    .hero-grid {
+      display: grid;
+      gap: 2.4rem;
+      align-items: center;
+    }
+
+    .hero-copy .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      padding: .5rem .9rem;
+      border-radius: 999px;
+      background: rgba(0, 170, 210, .12);
+      color: var(--royal);
+      font-family: var(--data);
+      font-size: .74rem;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      margin-bottom: 1.1rem;
+    }
+
+    .hero-copy .tag .pulse {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--cyan);
+      animation: pulse 1.8s infinite;
+    }
+
+    @keyframes pulse {
+
+      0%,
+      100% {
+        box-shadow: 0 0 0 0 rgba(0, 170, 210, .5);
+      }
+
+      50% {
+        box-shadow: 0 0 0 6px rgba(0, 170, 210, 0);
+      }
+    }
+
+    .hero-copy h1 {
+      font-family: var(--display);
+      font-weight: 700;
+      letter-spacing: -.02em;
+      font-size: clamp(2.3rem, 6vw, 3.6rem);
+      line-height: 1.06;
+      margin: 0 0 1.1rem;
+      color: #F8F8F8;
+    }
+
+    .hero-copy h1 .accent {
+      color: var(--royal);
+    }
+
+    .hero-copy p.lede {
+      font-size: 1.06rem;
+      line-height: 1.65;
+      color: var(--muted);
+      max-width: 520px;
+      margin: 0 0 1.7rem;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .75rem;
+      margin-bottom: 1.8rem;
+    }
+
+    .id-card {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: .9rem 1.1rem;
+      border-radius: var(--radius-lg);
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--glass-border);
+      backdrop-filter: blur(16px);
+      box-shadow: var(--shadow-sm);
+      max-width: 460px;
+    }
+
+    .id-card__avatar {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid var(--white);
+      box-shadow: 0 4px 10px rgba(0, 44, 95, .2);
+    }
+
+    .id-card__body strong {
+      display: block;
+      color: var(--navy);
+      font-size: .98rem;
+    }
+
+    .id-card__body span {
+      display: block;
+      color: var(--muted);
+      font-size: .82rem;
+    }
+
+    .id-card__stars {
+      color: #F5A623;
+      font-size: .78rem;
+      letter-spacing: .05em;
+    }
+
+    .hero-visual {
+      position: relative;
+    }
+
+    .hero-frame {
+      position: relative;
+      border-radius: 32px;
+      overflow: hidden;
+      aspect-ratio: 3/4;
+      background: var(--silver);
+      padding: 3px;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .hero-frame__inner {
+      border-radius: 30px;
+      overflow: hidden;
+      height: 100%;
+      background: var(--navy-deep);
+      position: relative;
+    }
+
+    .hero-frame__inner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .hero-frame__inner::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(0, 26, 61, 0) 55%, rgba(0, 26, 61, .55) 100%);
+    }
+
+    .hero-badge-float {
+      position: absolute;
+      z-index: 3;
+      padding: .8rem 1rem;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, .85);
+      backdrop-filter: blur(14px);
+      box-shadow: var(--shadow-md);
+      border: 1px solid var(--glass-border);
+    }
+
+    .hero-badge-float.top {
+      top: -14px;
+      left: -14px;
+    }
+
+    .hero-badge-float.bottom {
+      bottom: 16px;
+      right: -14px;
+    }
+
+    .hero-badge-float strong {
+      display: block;
+      font-family: var(--data);
+      font-size: 1.15rem;
+      color: var(--navy);
+      line-height: 1;
+    }
+
+    .hero-badge-float span {
+      display: block;
+      font-size: .74rem;
+      color: var(--muted);
+      margin-top: .25rem;
+    }
+
+    .hero-strip {
+      margin-top: 3rem;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border-top: 1px solid var(--line);
+      padding-top: 1.4rem;
+    }
+
+    .hero-strip div {
+      text-align: center;
+      border-right: 1px solid var(--line);
+      padding: 0 .5rem;
+    }
+
+    .hero-strip div:last-child {
+      border-right: 0;
+    }
+
+    .hero-strip strong {
+      display: block;
+      font-family: var(--data);
+      font-size: 1.35rem;
+      color: var(--navy);
+    }
+
+    .hero-strip span {
+      display: block;
+      font-size: .76rem;
+      color: var(--muted);
+      margin-top: .2rem;
+    }
+
+    /* ==========================================================================
+   ABOUT / WHY CHOOSE ME
+   ========================================================================== */
+    .about {
+      background: transparent;
+    }
+
+    .about-grid {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .about-card {
+      padding: 1.4rem 1.2rem;
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--line);
+      transition: transform .3s var(--ease), box-shadow .3s var(--ease), background .3s ease;
+    }
+
+    .about-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-md);
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .about-card .ic {
+      width: 44px;
+      height: 44px;
+      border-radius: 14px;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, var(--navy), var(--royal));
+      color: var(--white);
+      margin-bottom: .9rem;
+      font-size: 1.05rem;
+    }
+
+    .about-card h3 {
+      margin: 0 0 .4rem;
+      font-size: 1rem;
+      color: var(--navy);
+      font-family: var(--display);
+    }
+
+    .about-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: .88rem;
+      line-height: 1.55;
+    }
+
+    /* ==========================================================================
+   FEATURED VEHICLES (FILTERABLE GRID)
+   ========================================================================== */
+    .featured {
+      background: transparent;
+    }
+
+    .filter-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .6rem;
+      margin: 0 0 2rem;
+    }
+
+    .filter-pill {
+      padding: .7rem 1.3rem;
+      border-radius: 999px;
+      border: 1px solid var(--glass-border);
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--muted);
+      font-family: var(--body);
+      font-weight: 600;
+      font-size: .9rem;
+      cursor: pointer;
+      transition: background .25s ease, color .25s ease, border-color .25s ease, transform .25s var(--ease);
+    }
+
+    .filter-pill:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--ink);
+    }
+
+    .filter-pill.active {
+      background: linear-gradient(135deg, var(--navy), var(--royal));
+      color: var(--white);
+      border-color: transparent;
+    }
+
+    .models-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.2rem;
+    }
+
+    .model-card {
+      display: block;
+      animation: fadeInUp .5s var(--ease) both;
+    }
+
+    .model-card.hidden {
+      display: none;
+    }
+
+    .model-card .veh-card {
+      height: 100%;
+    }
+
+    @media (max-width: 1080px) {
+      .models-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 560px) {
+      .models-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .filter-pills {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: .3rem;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .filter-pill {
+        flex-shrink: 0;
+      }
+    }
+
+    .veh-card {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow-sm);
+      height: 100%;
+      transition: transform .3s var(--ease), box-shadow .3s var(--ease);
+    }
+
+    .veh-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .veh-card__media {
+      aspect-ratio: 16/10;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .veh-card__media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform .5s var(--ease);
+    }
+
+    .veh-card:hover .veh-card__media img {
+      transform: scale(1.06);
+    }
+
+    .veh-card__tag {
+      position: absolute;
+      top: .8rem;
+      left: .8rem;
+      padding: .35rem .7rem;
+      border-radius: 999px;
+      background: rgba(212, 175, 55, .16);
+      color: #F8E7A8;
+      font-family: var(--data);
+      font-size: .68rem;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+
+    .veh-card__body {
+      padding: 1.1rem 1.15rem 1.25rem;
+    }
+
+    .veh-card__top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: .5rem;
+    }
+
+    .veh-card__top h3 {
+      margin: 0;
+      font-family: var(--display);
+      color: #F8F8F8;
+      font-size: 1.15rem;
+    }
+
+    .veh-card__top .price {
+      font-family: var(--data);
+      color: var(--royal);
+      font-weight: 700;
+      font-size: .92rem;
+    }
+
+    .veh-card__spec {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .4rem;
+      margin: .7rem 0 1rem;
+    }
+
+    .veh-card__spec span {
+      font-family: var(--data);
+      font-size: .72rem;
+      color: var(--muted);
+      padding: .32rem .6rem;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--line);
+    }
+
+    .veh-card__actions {
+      display: flex;
+      gap: .5rem;
+    }
+
+    .veh-card__actions .btn {
+      flex: 1;
+      padding: .7rem .8rem;
+      font-size: .82rem;
+    }
+
+    /* ==========================================================================
+   SERVICES
+   ========================================================================== */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+    }
+
+    .service-card {
+      padding: 1.3rem;
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--glass-border);
+      backdrop-filter: blur(10px);
+      text-align: left;
+      transition: transform .3s var(--ease), background .3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+      background: rgba(255, 255, 255, 0.08);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .service-card .ic {
+      font-size: 1.3rem;
+      margin-bottom: .7rem;
+      display: block;
+      color: var(--royal);
+    }
+
+    .service-card h4 {
+      margin: 0 0 .3rem;
+      font-size: .95rem;
+      color: #F8F8F8;
+      font-family: var(--display);
+    }
+
+    .service-card p {
+      margin: 0;
+      font-size: .82rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    /* ==========================================================================
+   GALLERY
+   ========================================================================== */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-auto-rows: 160px;
+      gap: .8rem;
+    }
+
+    .gallery-item {
+      position: relative;
+      border-radius: var(--radius);
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    .gallery-item.tall {
+      grid-row: span 2;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform .5s var(--ease);
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.08);
+    }
+
+    .gallery-item::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, transparent 55%, rgba(0, 26, 61, .7));
+      opacity: 0;
+      transition: opacity .3s ease;
+    }
+
+    .gallery-item:hover::after {
+      opacity: 1;
+    }
+
+    .gallery-item .cap {
+      position: absolute;
+      inset: auto .8rem .7rem auto;
+      left: .8rem;
+      color: var(--white);
+      font-size: .78rem;
+      opacity: 0;
+      transform: translateY(6px);
+      transition: all .3s ease;
+    }
+
+    .gallery-item:hover .cap {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ==========================================================================
+   CONTACT
+   ========================================================================== */
+    .contact {
+      background: transparent;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.6rem;
+      align-items: stretch;
+    }
+
+    .contact-card {
+      border-radius: var(--radius-lg);
+      background: linear-gradient(160deg, #111111, #000000);
+      color: var(--white);
+      padding: 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .contact-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 90% 10%, rgba(212, 175, 55, .22), transparent 50%);
+    }
+
+    .contact-person {
+      position: relative;
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      margin-bottom: 1.6rem;
+    }
+
+    .contact-person img {
+      width: 68px;
+      height: 68px;
+      border-radius: 18px;
+      object-fit: cover;
+      border: 2px solid rgba(255, 255, 255, .3);
+    }
+
+    .contact-person strong {
+      display: block;
+      font-family: var(--display);
+      font-size: 1.15rem;
+    }
+
+    .contact-person span {
+      display: block;
+      color: rgba(255, 255, 255, .68);
+      font-size: .85rem;
+      margin-top: .15rem;
+    }
+
+    .contact-list {
+      position: relative;
+      display: grid;
+      gap: .9rem;
+      margin-bottom: 1.6rem;
+    }
+
+    .contact-list li {
+      display: flex;
+      gap: .8rem;
+      align-items: flex-start;
+      font-size: .92rem;
+      color: rgba(255, 255, 255, .9);
+    }
+
+    .contact-list li .ic {
+      width: 34px;
+      height: 34px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, .12);
+      display: grid;
+      place-items: center;
+      flex-shrink: 0;
+    }
+
+    .contact-list li strong {
+      display: block;
+      color: var(--white);
+      font-family: var(--data);
+      font-size: .82rem;
+      letter-spacing: .02em;
+    }
+
+    .contact-list li span.placeholder {
+      color: rgba(255, 255, 255, .55);
+      font-size: .74rem;
+      font-style: italic;
+    }
+
+    .contact-map {
+      position: relative;
+      margin-top: 1rem;
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, .16);
+      background: rgba(255, 255, 255, .06);
+    }
+
+    .contact-map iframe {
+      display: block;
+      width: 100%;
+      min-height: 240px;
+      border: 0;
+      background: #111;
+    }
+
+    .contact-map-link {
+      display: inline-block;
+      margin-top: .7rem;
+      color: var(--cyan);
+      font-size: .82rem;
+      font-family: var(--data);
+      text-decoration: none;
+    }
+
+    .contact-map-link:hover {
+      text-decoration: underline;
+    }
+
+    .contact-actions {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      gap: .7rem;
+    }
+
+    .contact-form-card {
+      border-radius: var(--radius-lg);
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--line);
+      padding: 2rem;
+    }
+
+    .contact-form-card h3 {
+      margin: 0 0 1.2rem;
+      font-family: var(--display);
+      color: #F8F8F8;
+      font-size: 1.2rem;
+    }
+
+    .form-row {
+      display: grid;
+      gap: .9rem;
+      margin-bottom: .9rem;
+    }
+
+    .form-row.two {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .form-field label {
+      display: block;
+      font-size: .78rem;
+      color: var(--muted);
+      margin-bottom: .4rem;
+      font-family: var(--data);
+      letter-spacing: .02em;
+    }
+
+    .form-field input,
+    .form-field select,
+    .form-field textarea {
+      width: 100%;
+      padding: .85rem .95rem;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.06);
+      font-family: var(--body);
+      font-size: .92rem;
+      color: var(--ink);
+    }
+
+    .form-field textarea {
+      resize: vertical;
+      min-height: 90px;
+    }
+
+    .form-field input:focus,
+    .form-field select:focus,
+    .form-field textarea:focus {
+      outline: 2px solid var(--cyan);
+      border-color: transparent;
+    }
+
+    /* ==========================================================================
+   FOOTER
+   ========================================================================== */
+    .footer {
+      background: var(--navy-deep);
+      color: rgba(255, 255, 255, .7);
+      padding: 3rem 0 6.5rem;
+    }
+
+    .footer-top {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr 1fr;
+      gap: 2rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid rgba(255, 255, 255, .1);
+    }
+
+    .footer-brand {
+      font-family: var(--display);
+      color: var(--white);
+      font-size: 1.2rem;
+      margin-bottom: .7rem;
+    }
+
+    .footer-top p {
+      font-size: .88rem;
+      line-height: 1.6;
+      max-width: 320px;
+    }
+
+    .footer h4 {
+      color: var(--white);
+      font-size: .88rem;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      margin: 0 0 .9rem;
+      font-family: var(--data);
+    }
+
+    .footer ul li {
+      margin-bottom: .6rem;
+      font-size: .88rem;
+    }
+
+    .footer ul li a:hover {
+      color: var(--cyan);
+    }
+
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      padding-top: 1.6rem;
+      font-size: .82rem;
+    }
+
+    .footer-socials {
+      display: flex;
+      gap: .6rem;
+    }
+
+    .footer-socials a {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, .08);
+      display: grid;
+      place-items: center;
+      transition: background .25s ease;
+    }
+
+    .footer-socials a:hover {
+      background: var(--cyan);
+    }
+
+    /* ==========================================================================
+   STICKY MOBILE ELEMENTS
+   ========================================================================== */
+    .float-actions {
+      position: fixed;
+      right: 1.1rem;
+      bottom: 6.2rem;
+      z-index: 80;
+      display: flex;
+      flex-direction: column;
+      gap: .7rem;
+    }
+
+    .float-btn {
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: var(--white);
+      box-shadow: var(--shadow-md);
+      font-size: 1.25rem;
+      transition: transform .25s var(--ease);
+    }
+
+    .float-btn:hover {
+      transform: scale(1.08);
+    }
+
+    .float-btn.call {
+      background: linear-gradient(135deg, var(--navy), var(--royal));
+    }
+
+    .float-btn.whatsapp {
+      background: #25D366;
+    }
+
+    .bottom-nav {
+      display: none;
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 85;
+      background: rgba(8, 8, 8, 0.95);
+      backdrop-filter: blur(18px);
+      border-top: 1px solid var(--line);
+      padding: .55rem .4rem calc(.55rem + env(safe-area-inset-bottom));
+      box-shadow: 0 -8px 24px rgba(0, 0, 0, .35);
+    }
+
+    .bottom-nav__grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .bottom-nav a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: .25rem;
+      color: var(--muted);
+      font-size: .68rem;
+      font-weight: 600;
+      padding: .3rem;
+    }
+
+    .bottom-nav a i {
+      font-size: 1.05rem;
+    }
+
+    .bottom-nav a.primary {
+      color: #F8F8F8;
+    }
+
+    .bottom-nav a.primary i {
+      color: var(--royal);
+    }
+
+    /* ==========================================================================
+   MODAL
+   ========================================================================== */
+    .modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, .72);
+      backdrop-filter: blur(4px);
+      display: grid;
+      place-items: center;
+      padding: 1rem;
+      z-index: 150;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity .3s ease;
+    }
+
+    .modal.active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .modal-card {
+      width: min(880px, 100%);
+      max-height: min(88vh, 780px);
+      overflow: auto;
+      border-radius: 28px;
+      background: #0c0c0c;
+      position: relative;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .modal-close {
+      position: sticky;
+      top: 1rem;
+      float: right;
+      margin: 1rem 1rem 0 0;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 0;
+      background: rgba(255, 255, 255, 0.08);
+      color: #F8F8F8;
+      cursor: pointer;
+      z-index: 2;
+      font-size: 1.1rem;
+    }
+
+    .modal-visual {
+      padding: 1rem 1rem 0;
+    }
+
+    .modal-visual img {
+      width: 100%;
+      height: auto;
+      max-height: 400px;
+      border-radius: 20px;
+      object-fit: contain;
+      background: #111;
+    }
+
+    .modal-body {
+      padding: 1rem 1.3rem 1.6rem;
+    }
+
+    .modal-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      align-items: center;
+      margin-bottom: .6rem;
+    }
+
+    .modal-top h3 {
+      margin: 0;
+      font-family: var(--display);
+      color: #F8F8F8;
+      font-size: 1.5rem;
+    }
+
+
+    .modal-body p.desc {
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .spec-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: .7rem;
+      margin: 1.1rem 0;
+    }
+
+    .spec-grid div {
+      padding: .8rem .9rem;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--line);
+    }
+
+    .spec-grid span {
+      display: block;
+      font-family: var(--data);
+      color: var(--royal);
+      font-size: .68rem;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      margin-bottom: .25rem;
+    }
+
+    .spec-grid strong {
+      color: #F8F8F8;
+      font-size: .9rem;
+    }
+
+    /* New style for the detailed explanation section */
+    .modal-details {
+      margin: 1.2rem 0 1.4rem;
+      padding: 1rem 1.2rem;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--line);
+    }
+
+    .modal-details h4 {
+      font-family: var(--data);
+      color: var(--royal);
+      font-size: .72rem;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      margin: 0 0 .6rem;
+    }
+
+    .modal-details p {
+      margin: 0;
+      color: var(--muted);
+      font-size: .92rem;
+      line-height: 1.7;
+    }
+
+    .modal-actions {
+      display: flex;
+      gap: .6rem;
+      margin-top: 1.3rem;
+      flex-wrap: wrap;
+    }
+
+    .modal-actions .btn {
+      flex: 1;
+      min-width: 140px;
+    }
+
+    /* ==========================================================================
+   MISC
+   ========================================================================== */
+    .reveal {
+      opacity: 0;
+      transform: translateY(26px);
+    }
+
+    .divider-silver {
+      height: 2px;
+      background: var(--silver);
+      border-radius: 2px;
+      opacity: .5;
+      margin: 0 auto;
+      width: 60px;
+    }
+
+    @keyframes floatY {
+
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    .float-anim {
+      animation: floatY 4.5s ease-in-out infinite;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(24px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .reveal-in {
+      animation: fadeInUp .8s var(--ease) forwards;
+    }
+
+    .ripple {
+      position: absolute;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, .5);
+      transform: scale(0);
+      animation: rippleAnim .7s linear;
+      pointer-events: none;
+    }
+
+    @keyframes rippleAnim {
+      to {
+        transform: scale(3);
+        opacity: 0;
+      }
+    }
+
+    .glow-orb {
+      position: absolute;
+      width: 340px;
+      height: 340px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(0, 170, 210, .35), transparent 70%);
+      filter: blur(10px);
+      z-index: -1;
+      animation: floatY 6s ease-in-out infinite;
+    }
+
+    /* ==========================================================================
+   RESPONSIVE
+   ========================================================================== */
+    @media (min-width: 900px) {
+      .hero-grid {
+        grid-template-columns: 1.05fr .95fr;
+      }
+
+      .about-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    @media (max-width: 1080px) {
+      .about-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .gallery-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-top {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 780px) {
+      .nav-links {
+        display: none;
+      }
+
+      .nav-cta {
+        display: none;
+      }
+
+      .mobile-nav-toggle {
+        display: flex;
+      }
+
+      section {
+        padding: 3rem 0;
+      }
+
+      .hero {
+        padding: 1.4rem 0 2.4rem;
+      }
+
+      .hero-copy {
+        text-align: left;
+      }
+
+      .hero-strip {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 1rem;
+      }
+
+      .hero-strip div:nth-child(2) {
+        border-right: 0;
+      }
+
+      .id-card {
+        max-width: 100%;
+      }
+
+      .about-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .services-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 130px;
+      }
+
+      .footer-top {
+        grid-template-columns: 1fr;
+        gap: 1.6rem;
+      }
+
+      .contact-card,
+      .contact-form-card {
+        padding: 1.5rem;
+      }
+
+      .form-row.two {
+        grid-template-columns: 1fr;
+      }
+
+      .bottom-nav {
+        display: block;
+      }
+
+      .float-actions {
+        bottom: 5.6rem;
+        right: .9rem;
+      }
+
+      .float-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 1.1rem;
+      }
+
+      body {
+        padding-bottom: 0;
+      }
+    }
+
+    @media (max-width: 480px) {
+
+      .about-grid,
+      .services-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .hero-copy h1 {
+        font-size: 2.1rem;
+      }
+
+      .section-head h2 {
+        font-size: 1.5rem;
+      }
+
+      .veh-card__actions {
+        flex-direction: column;
+      }
+    }
+
+    html,
+    body {
+      max-width: 100%;
+    }
+  </style>
 </head>
 
 <body>
 
-    <div class="container">
+  <div class="scroll-progress"></div>
 
-        <h1>Our Vehicle Lineup</h1>
-
-        <img src="imager.png" alt="Brochure">
-
-        <a href="imager.png" download class="btn">
-            Download Image
-        </a>
-
+  <div class="loader">
+    <div class="loader-shell">
+      <div class="loader-logo">HYUNDAI</div>
+      <div class="loader-line">
+        <div class="loader-bar"></div>
+      </div>
+      <div class="loader-text">Loading 0%</div>
     </div>
+  </div>
 
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a href="#hero" class="brand"><img src="assets/images/logo.png" alt="logo" class="logo"></a>
+        <div class="nav-links">
+          <a href="#about">Why Me</a>
+          <a href="#featured">Models</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <a href="#contact" class="nav-cta">Book Test Drive</a>
+        <button class="mobile-nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+    <div class="nav-drawer" style="background-color: black">
+      <button class="nav-drawer-close" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+      <a href="#about">Why Me</a>
+      <a href="#featured">Models</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="btn btn-primary">Book Test Drive</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="tag"> Hyundai Sales Executive</div>
+          <h1>Your Journey Begins with <span class="accent">Hyundai</span>.</h1>
+          <p class="lede">
+            Whether you're purchasing your first car or upgrading to your dream Hyundai, I offer dedicated assistance
+            with model selection, attractive exchange offers, fast finance approvals, doorstep test drives, and complete
+            delivery support—ensuring a premium and stress-free buying experience.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary magnetic"><i class="fa-solid fa-car-side"></i> Book Test Drive</a>
+            <a href="tel:+919384222353" class="btn btn-outline magnetic"><i class="fa-solid fa-phone"></i> Call Now</a>
+            <a href="https://wa.me/919384222353?text=Hi%20Joel%2C%20I%27m%20interested%20in%20a%20Hyundai"
+              target="_blank" rel="noopener" class="btn btn-outline magnetic"><i class="fa-brands fa-whatsapp"></i>
+              WhatsApp</a>
+          </div>
+
+
+        </div>
+
+        <div class="hero-visual">
+          <div class="glow-orb" style="top:10%; right:10%;"></div>
+          <div class="hero-frame float-anim">
+            <div class="hero-frame__inner">
+              <img src="assets/images/joel.png" alt="Joel, Hyundai Sales Executive" loading="eager" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT / WHY CHOOSE ME -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-head" data-aos="fade-up">
+          <div class="eyebrow">The Joel Advantage</div>
+          <h2>Why customers choose to buy through Joel</h2>
+          <p>A single point of contact for the whole journey — from your first question to the day you drive out of the
+            showroom.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="ic"><i class="fa-solid fa-user-tie"></i></div>
+            <h3>Personalised Consultation</h3>
+            <p>One-on-one guidance to match the right model, variant and colour to your needs and budget.</p>
+          </div>
+          <div class="about-card">
+            <div class="ic"><i class="fa-solid fa-arrow-right-arrow-left"></i></div>
+            <h3>Best Exchange Offers</h3>
+            <p>Fair, transparent valuation on your current car with the best possible exchange bonus.</p>
+          </div>
+          <div class="about-card">
+            <div class="ic"><i class="fa-solid fa-file-invoice-dollar"></i></div>
+            <h3>Easy Finance Assistance</h3>
+            <p>Bank and NBFC tie-ups for fast approvals, low interest rates and flexible EMI plans.</p>
+          </div>
+          <div class="about-card">
+            <div class="ic"><i class="fa-solid fa-truck-fast"></i></div>
+            <h3>Fast Delivery</h3>
+            <p>Real-time stock visibility so you know exactly when your Hyundai will be ready.</p>
+          </div>
+          <div class="about-card">
+            <div class="ic"><i class="fa-solid fa-house-chimney"></i></div>
+            <h3>Doorstep Test Drive</h3>
+            <p>Experience the car at your convenience — I bring the test drive to your doorstep.</p>
+          </div>
+          <div class="about-card">
+            <div class="ic"><i class="fa-solid fa-shield-halved"></i></div>
+            <h3>Insurance Support</h3>
+            <p>Zero-hassle insurance comparison and renewal assistance for every policy type.</p>
+          </div>
+          <div class="about-card">
+            <div class="ic"><i class="fa-solid fa-clipboard-check"></i></div>
+            <h3>Registration Assistance</h3>
+            <p>End-to-end RTO paperwork handled for you — no queues, no confusion.</p>
+          </div>
+          <div class="about-card">
+            <div class="ic"><i class="fa-solid fa-headset"></i></div>
+            <h3>After-Sales Support</h3>
+            <p>I stay reachable long after delivery — for servicing reminders and any follow-up.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED VEHICLES -->
+    <section id="featured" class="featured">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Featured Vehicles</div>
+          <h2>Popular models, ready to explore</h2>
+          <p>Filter by body type, or tap any card for full specs, variants and colours.</p>
+        </div>
+
+        <div class="filter-pills" role="tablist" aria-label="Filter vehicles by category">
+          <button class="filter-pill active" data-filter="all" type="button">All</button>
+          <button class="filter-pill" data-filter="SUV" type="button">SUV</button>
+          <button class="filter-pill" data-filter="Sedan" type="button">Sedan</button>
+          <button class="filter-pill" data-filter="Hatchback" type="button">Hatchback</button>
+          <button class="filter-pill" data-filter="Electric" type="button">Electric</button>
+        </div>
+
+        <div class="models-grid" id="models-grid">
+          <div class="model-card" data-category="SUV">
+            <article class="veh-card">
+              <div class="veh-card__media"><span class="veh-card__tag">SUV</span><img src="assets/images/Creta.png"
+                  alt="Hyundai Creta" loading="lazy" /></div>
+              <div class="veh-card__body">
+                <div class="veh-card__top">
+                  <h3>Creta</h3>
+                </div>
+                <div class="veh-card__spec"><span>Petrol/Diesel</span><span>17.4 km/l</span><span>6 Airbags</span>
+                </div>
+                <div class="veh-card__actions">
+                  <a href="#" class="btn btn-outline btn-sm" data-vehicle="creta">Explore</a>
+                  <a href="#contact" class="btn btn-primary btn-sm">Test Drive</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="model-card" data-category="SUV">
+            <article class="veh-card">
+              <div class="veh-card__media"><span class="veh-card__tag">SUV</span><img
+                  src="assets/images/Creta_n_line.png" alt="Hyundai Creta N Line" loading="lazy" /></div>
+              <div class="veh-card__body">
+                <div class="veh-card__top">
+                  <h3>Creta N Line</h3>
+                </div>
+                <div class="veh-card__spec"><span>1.5 Turbo</span><span>DCT</span><span>Sporty</span>
+                </div>
+                <div class="veh-card__actions">
+                  <a href="#" class="btn btn-outline btn-sm" data-vehicle="creta_n_line">Explore</a>
+                  <a href="#contact" class="btn btn-primary btn-sm">Test Drive</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="model-card" data-category="Electric">
+            <article class="veh-card">
+              <div class="veh-card__media"><span class="veh-card__tag">Electric SUV</span><img
+                  src="assets/images/Creta_EV.png" alt="Hyundai Creta Electric" loading="lazy" /></div>
+              <div class="veh-card__body">
+                <div class="veh-card__top">
+                  <h3>Creta Electric</h3>
+                </div>
+                <div class="veh-card__spec"><span>473 km range</span><span>EV</span><span>Fast Charge</span>
+                </div>
+                <div class="veh-card__actions">
+                  <a href="#" class="btn btn-outline btn-sm" data-vehicle="creta_ev">Explore</a>
+                  <a href="#contact" class="btn btn-primary btn-sm">Test Drive</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="model-card" data-category="SUV">
+            <article class="veh-card">
+              <div class="veh-card__media"><span class="veh-card__tag">SUV</span><img src="assets/images/venue.png"
+                  alt="Hyundai Venue" loading="lazy" /></div>
+              <div class="veh-card__body">
+                <div class="veh-card__top">
+                  <h3>Venue</h3>
+                </div>
+                <div class="veh-card__spec"><span>Petrol</span><span>18.2 km/l</span><span>6 Airbags</span></div>
+                <div class="veh-card__actions">
+                  <a href="#" class="btn btn-outline btn-sm" data-vehicle="venue">Explore</a>
+                  <a href="#contact" class="btn btn-primary btn-sm">Test Drive</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="model-card" data-category="SUV">
+            <article class="veh-card">
+              <div class="veh-card__media"><span class="veh-card__tag">SUV</span><img
+                  src="assets/images/Venue_n_line.png" alt="Hyundai Venue N Line" loading="lazy" /></div>
+              <div class="veh-card__body">
+                <div class="veh-card__top">
+                  <h3>Venue N Line</h3>
+                </div>
+                <div class="veh-card__spec"><span>1.0 Turbo</span><span>DCT</span><span>Sporty</span></div>
+                <div class="veh-card__actions">
+                  <a href="#" class="btn btn-outline btn-sm" data-vehicle="venue_n_line">Explore</a>
+                  <a href="#contact" class="btn btn-primary btn-sm">Test Drive</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="model-card" data-category="Sedan">
+            <article class="veh-card">
+              <div class="veh-card__media"><span class="veh-card__tag">Sedan</span><img src="assets/images/Verna.png"
+                  alt="Hyundai Verna" loading="lazy" /></div>
+              <div class="veh-card__body">
+                <div class="veh-card__top">
+                  <h3>Verna</h3>
+                </div>
+                <div class="veh-card__spec"><span>Petrol</span><span>18.0 km/l</span><span>ADAS</span></div>
+                <div class="veh-card__actions">
+                  <a href="#" class="btn btn-outline btn-sm" data-vehicle="verna">Explore</a>
+                  <a href="#contact" class="btn btn-primary btn-sm">Test Drive</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="model-card" data-category="SUV">
+            <article class="veh-card">
+              <div class="veh-card__media"><span class="veh-card__tag">Micro SUV</span><img
+                  src="assets/images/Exter.png" alt="Hyundai Exter" loading="lazy" /></div>
+              <div class="veh-card__body">
+                <div class="veh-card__top">
+                  <h3>Exter</h3>
+                </div>
+                <div class="veh-card__spec"><span>Petrol/CNG</span><span>19.4 km/l</span><span>6 Airbags</span></div>
+                <div class="veh-card__actions">
+                  <a href="#" class="btn btn-outline btn-sm" data-vehicle="exter">Explore</a>
+                  <a href="#contact" class="btn btn-primary btn-sm">Test Drive</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="model-card" data-category="SUV">
+            <article class="veh-card">
+              <div class="veh-card__media"><span class="veh-card__tag">SUV</span><img src="assets/images/Alcazar.png"
+                  alt="Hyundai Alcazar" loading="lazy" /></div>
+              <div class="veh-card__body">
+                <div class="veh-card__top">
+                  <h3>Alcazar</h3>
+                </div>
+                <div class="veh-card__spec"><span>Petrol/Diesel</span><span>14.5 km/l</span><span>7-Seater</span>
+                </div>
+                <div class="veh-card__actions">
+                  <a href="#" class="btn btn-outline btn-sm" data-vehicle="alcazar">Explore</a>
+                  <a href="#contact" class="btn btn-primary btn-sm">Test Drive</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="model-card" data-category="Hatchback">
+            <article class="veh-card">
+              <div class="veh-card__media"><span class="veh-card__tag">Hatchback</span><img src="assets/images/i20.png"
+                  alt="Hyundai i20 N Line" loading="lazy" /></div>
+              <div class="veh-card__body">
+                <div class="veh-card__top">
+                  <h3>i20 N Line</h3>
+                </div>
+                <div class="veh-card__spec"><span>1.0 Turbo</span><span>118 bhp</span><span>6 Airbags</span></div>
+                <div class="veh-card__actions">
+                  <a href="#" class="btn btn-outline btn-sm" data-vehicle="i20_n_line">Explore</a>
+                  <a href="#contact" class="btn btn-primary btn-sm">Test Drive</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="model-card" data-category="Sedan">
+            <article class="veh-card">
+              <div class="veh-card__media"><span class="veh-card__tag">Sedan</span><img src="assets/images/aura.png"
+                  alt="Hyundai Aura" loading="lazy" /></div>
+              <div class="veh-card__body">
+                <div class="veh-card__top">
+                  <h3>Aura</h3>
+                </div>
+                <div class="veh-card__spec"><span>Petrol/CNG</span><span>20.5 km/l</span><span>6 Airbags</span></div>
+                <div class="veh-card__actions">
+                  <a href="#" class="btn btn-outline btn-sm" data-vehicle="aura">Explore</a>
+                  <a href="#contact" class="btn btn-primary btn-sm">Test Drive</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="model-card" data-category="Hatchback">
+            <article class="veh-card">
+              <div class="veh-card__media"><span class="veh-card__tag">Hatchback</span><img src="assets/images/i10.png"
+                  alt="Hyundai Grand i10 Nios" loading="lazy" /></div>
+              <div class="veh-card__body">
+                <div class="veh-card__top">
+                  <h3>Grand i10 Nios</h3>
+                </div>
+                <div class="veh-card__spec"><span>Petrol</span><span>20.3 km/l</span><span>6 Airbags</span></div>
+                <div class="veh-card__actions">
+                  <a href="#" class="btn btn-outline btn-sm" data-vehicle="grand_i10_nios">Explore</a>
+                  <a href="#contact" class="btn btn-primary btn-sm">Test Drive</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <p style="text-align:center; color:var(--muted); font-size:.78rem; margin-top:1.6rem;">*Ex-showroom prices,
+          indicative — final on-road price shared during consultation.</p>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">End-to-End Support</div>
+          <h2>Everything handled, one contact</h2>
+          <p>From the first enquiry to years after delivery — I coordinate every step so you don't have to chase anyone.
+          </p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card"><i class="fa-solid fa-file-invoice-dollar ic"></i>
+            <h4>Finance Assistance</h4>
+            <p>Multi-bank EMI options, fast approval.</p>
+          </div>
+          <div class="service-card"><i class="fa-solid fa-arrow-right-arrow-left ic"></i>
+            <h4>Exchange Support</h4>
+            <p>Best-value valuation on your old car.</p>
+          </div>
+          <div class="service-card"><i class="fa-solid fa-shield-halved ic"></i>
+            <h4>Insurance</h4>
+            <p>Compare and renew without the hassle.</p>
+          </div>
+          <div class="service-card"><i class="fa-solid fa-gem ic"></i>
+            <h4>Accessories</h4>
+            <p>Genuine Hyundai accessories, fitted right.</p>
+          </div>
+          <div class="service-card"><i class="fa-solid fa-building ic"></i>
+            <h4>Corporate Sales</h4>
+            <p>Bulk pricing for company purchases.</p>
+          </div>
+          <div class="service-card"><i class="fa-solid fa-truck ic"></i>
+            <h4>Fleet Sales</h4>
+            <p>Tailored fleet plans and servicing.</p>
+          </div>
+          <div class="service-card"><i class="fa-solid fa-house-chimney ic"></i>
+            <h4>Doorstep Delivery</h4>
+            <p>Your Hyundai, delivered to your home.</p>
+          </div>
+          <div class="service-card"><i class="fa-solid fa-bolt ic"></i>
+            <h4>Fast Registration</h4>
+            <p>RTO paperwork handled end-to-end.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Get In Touch</div>
+          <h2>Let's find your Hyundai</h2>
+          <p>Call, message on WhatsApp, or send an enquiry — I'll get back to you personally, usually within the hour.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <div class="contact-person">
+              <div>
+                <strong>Joel</strong>
+                <span>Hyundai Sales Executive</span>
+              </div>
+            </div>
+            <ul class="contact-list">
+              <li>
+                <span class="ic"><i class="fa-brands fa-whatsapp"></i></span>
+                <div><strong style="color: white;">+91 93842 22353</strong></div>
+              </li>
+              <li>
+                <span class="ic"><i class="fa-solid fa-envelope"></i></span>
+                <div><strong style="color: white;">joeljack629@gmail.com</strong></div>
+              </li>
+              <li>
+                <span class="ic"><i class="fa-solid fa-location-dot"></i></span>
+                <div><strong style="color: white;">Derik Square, Tirunelveli Main Road, Ozhuginasery, Nagercoil,
+                    K.K.Dist-629001</strong>
+                </div>
+              </li>
+              <li>
+                <span class="ic"><i class="fa-solid fa-clock"></i></span>
+                <div><strong style="color: white;">Mon–Sat, 9:30 AM – 8:00 PM</strong></div>
+              </li>
+            </ul>
+            <div class="contact-map">
+              <iframe title="Google Map for Joel Hyundai location" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps?q=Derik%20Square%2C%20Tirunelveli%20Main%20Road%2C%20Ozhuginasery%2C%20Nagercoil%2C%20K.K.Dist-629001&z=14&output=embed"
+                allowfullscreen>
+              </iframe>
+            </div>
+            <a class="contact-map-link"
+              href="https://www.google.com/maps/search/?api=1&query=Derik+Square%2C+Tirunelveli+Main+Road%2C+Ozhuginasery%2C+Nagercoil%2C+K.K.Dist-629001"
+              target="_blank" rel="noopener">
+            </a>
+          </div>
+
+          <div class="contact-form-card">
+            <h3>Send an enquiry</h3>
+            <form id="enquiry-form">
+              <div class="form-row two">
+                <div class="form-field">
+                  <label for="f-name">Full name</label>
+                  <input id="f-name" type="text" placeholder="Your name" required />
+                </div>
+                <div class="form-field">
+                  <label for="f-phone">Phone number</label>
+                  <input id="f-phone" type="tel" placeholder="+91 90000 00000" required />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="f-model">Interested model</label>
+                  <select id="f-model">
+                    <option>Creta</option>
+                    <option>Creta N Line</option>
+                    <option>Creta Electric</option>
+                    <option>Venue</option>
+                    <option>Venue N Line</option>
+                    <option>Verna</option>
+                    <option>Exter</option>
+                    <option>Alcazar</option>
+                    <option>i20 N Line</option>
+                    <option>Aura</option>
+                    <option>Grand i10 Nios</option>
+                    <option>Not sure yet</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="f-msg">Message</label>
+                  <textarea id="f-msg"
+                    placeholder="Tell me what you're looking for — budget, timeline, exchange car, etc."></textarea>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block magnetic">Send Enquiry</button>
+              <p id="form-status" style="margin-top:.9rem; font-size:.85rem; color:var(--royal);"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand" style="color: white;">HYUNDAI</div>
+          <p>Personal digital profile of Joel, Hyundai Sales Executive in Ozhuginasery. Independent sales support for
+            enquiries, test drives, finance and exchange.</p>
+        </div>
+        <div>
+          <h4 style="color: white;">Quick Links</h4>
+          <ul>
+            <li><a href="#about">Why Me</a></li>
+            <li><a href="#featured">Models</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="color: white;">Contact</h4>
+          <ul>
+            <li><a href="tel:+919384222353">+91 93842 22353</a></li>
+            <li><a href="mailto:joeljack629@gmail.com">joeljack629@gmail.com</a></li>
+            <li>Derik Square, Tirunelveli Main Road, Ozhuginasery, Nagercoil, K.K.Dist-629001</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Joel — Hyundai Sales Executive. All rights reserved.</span>
+        <div class="footer-socials">
+          <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky floating buttons -->
+  <div class="float-actions">
+    <a href="https://wa.me/919384222353" target="_blank" rel="noopener" class="float-btn whatsapp"
+      aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="tel:+919384222353" class="float-btn call" aria-label="Call now"><i class="fa-solid fa-phone"></i></a>
+  </div>
+
+  <!-- Sticky bottom nav (mobile) -->
+  <nav class="bottom-nav">
+    <div class="bottom-nav__grid">
+      <a href="#hero"><i class="fa-solid fa-house"></i>Home</a>
+      <a href="#featured"><i class="fa-solid fa-car"></i>Models</a>
+      <a href="tel:+919384222353" class="primary"><i class="fa-solid fa-phone"></i>Call</a>
+      <a href="#contact"><i class="fa-solid fa-calendar-check"></i>Book</a>
+    </div>
+  </nav>
+
+  <!-- Vehicle modal -->
+  <div class="modal" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <div class="modal-visual"><img id="modal-image" src="" alt="Selected Hyundai vehicle" /></div>
+      <div class="modal-body">
+        <div class="modal-top">
+          <div>
+            <p class="eyebrow" id="modal-segment">Model</p>
+            <h3 id="modal-title"></h3>
+          </div>
+          <div class="modal-price" id="modal-price"></div>
+        </div>
+        <p class="desc" id="modal-desc"></p>
+
+        <!-- New detailed explanation section -->
+        <div class="modal-details">
+          <h4>Key Highlights</h4>
+          <p id="modal-highlights"></p>
+        </div>
+
+        <div class="spec-grid">
+          <div><span>Transmission</span><strong id="modal-transmission"></strong></div>
+          <div><span>Fuel Type</span><strong id="modal-fuel"></strong></div>
+          <div><span>Mileage</span><strong id="modal-mileage"></strong></div>
+          <div><span>Safety</span><strong id="modal-safety"></strong></div>
+          <div><span>Colours</span><strong id="modal-colors"></strong></div>
+        </div>
+        <div class="modal-actions">
+          <a href="#" id="modal-brochure" target="_blank" rel="noopener" class="btn btn-cyan magnetic"><i
+              class="fa-solid fa-file-pdf"></i> Car Details (Brochure)</a>
+          <a href="#contact" class="btn btn-primary magnetic"
+            onclick="document.querySelector('.modal').classList.remove('active')">Book Test Drive</a>
+          <a href="https://wa.me/919384222353" target="_blank" rel="noopener"
+            class="btn btn-outline magnetic">WhatsApp</a>
+          <a href="tel:+919384222353" class="btn btn-outline magnetic">Call Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      'use strict';
+
+      /* ---------------- Loader ---------------- */
+      const loader = document.querySelector('.loader');
+      const loaderBar = document.querySelector('.loader-bar');
+      const loaderText = document.querySelector('.loader-text');
+      let pct = 0;
+      const loadTimer = setInterval(function () {
+        pct += Math.random() * 30;
+        if (pct >= 100) {
+          pct = 100;
+          clearInterval(loadTimer);
+          setTimeout(function () { loader.classList.add('hidden'); }, 280);
+        }
+        loaderBar.style.width = pct + '%';
+        loaderText.textContent = 'Loading ' + Math.floor(pct) + '%';
+      }, 160);
+
+      /* ---------------- Scroll progress + header state ---------------- */
+      const progress = document.querySelector('.scroll-progress');
+      const header = document.querySelector('.header');
+      window.addEventListener('scroll', function () {
+        var h = document.documentElement;
+        var scrolled = (h.scrollTop) / (h.scrollHeight - h.clientHeight) * 100;
+        progress.style.width = scrolled + '%';
+        header.classList.toggle('scrolled', h.scrollTop > 20);
+      });
+
+      /* ---------------- Mobile nav drawer ---------------- */
+      var toggleBtn = document.querySelector('.mobile-nav-toggle');
+      var drawer = document.querySelector('.nav-drawer');
+      var closeDrawerBtn = document.querySelector('.nav-drawer-close');
+      function openDrawer() { drawer.classList.add('open'); toggleBtn.classList.add('open'); toggleBtn.setAttribute('aria-expanded', 'true'); }
+      function closeDrawer() { drawer.classList.remove('open'); toggleBtn.classList.remove('open'); toggleBtn.setAttribute('aria-expanded', 'false'); }
+      if (toggleBtn) {
+        toggleBtn.addEventListener('click', function () {
+          drawer.classList.contains('open') ? closeDrawer() : openDrawer();
+        });
+      }
+      if (closeDrawerBtn) { closeDrawerBtn.addEventListener('click', closeDrawer); }
+      if (drawer) {
+        drawer.querySelectorAll('a').forEach(function (a) { a.addEventListener('click', closeDrawer); });
+      }
+
+      /* ---------------- Featured vehicles: category filter ---------------- */
+      var filterPills = document.querySelectorAll('.filter-pill');
+      var modelCards = document.querySelectorAll('.model-card');
+      filterPills.forEach(function (pill) {
+        pill.addEventListener('click', function () {
+          filterPills.forEach(function (p) { p.classList.remove('active'); });
+          pill.classList.add('active');
+          var filter = pill.getAttribute('data-filter');
+          modelCards.forEach(function (card) {
+            var match = (filter === 'all') || (card.getAttribute('data-category') === filter);
+            card.classList.toggle('hidden', !match);
+          });
+        });
+      });
+
+      /* ---------------- Vehicle data + modal ---------------- */
+      var vehicleData = {
+        creta: { name: 'Creta', segment: 'SUV', img: 'assets/images/Creta.png', desc: 'Bold stance, panoramic sunroof and a refined digital cockpit for confident everyday drives.', engine: '1.5L NA / 1.5L Turbo', transmission: '6MT / IVT / 7DCT', fuel: 'Petrol / Diesel', mileage: '17.4 km/l', safety: '6 Airbags, ESC, ADAS', colors: '7 shades', brochure: 'assets/brochures/creta-brochure.pdf', highlights: 'The Creta offers a commanding road presence with its parametric grille and sleek LED lighting. Inside, you\'ll find a spacious cabin with premium leatherette seats and a large touchscreen infotainment system. The SUV is available with both petrol and diesel engine options, catering to a wide range of driving preferences.' },
+        creta_n_line: { name: 'Creta N Line', segment: 'SUV', img: 'assets/images/Creta_n_line.png', desc: 'The sportier, turbocharged Creta — tighter suspension, N-line styling and a more spirited drive.', engine: '1.5L T-GDi', transmission: '6iMT / 7DCT', fuel: 'Petrol', mileage: '17.9 km/l', safety: '6 Airbags, ESC, ADAS L2', colors: '5 shades', brochure: 'assets/brochures/creta-n-line-brochure.pdf', highlights: 'The Creta N Line is designed for driving enthusiasts who want a sportier SUV experience. It features a more powerful 1.5L turbo petrol engine, a sport-tuned suspension, and unique N Line design elements. The cabin gets N Line-specific touches, including sporty seats and a N Line steering wheel, making every drive feel more engaging.' },
+        creta_ev: { name: 'Creta Electric', segment: 'Electric SUV', img: 'assets/images/Creta_EV.png', desc: 'Hyundai\u2019s first mass-market electric SUV — silent, quick and packed with connected tech.', engine: 'Electric Motor', transmission: 'Single-speed Auto', fuel: 'Electric', mileage: 'Up to 473 km range', safety: '6 Airbags, ESC, ADAS L2', colors: '5 shades', brochure: 'assets/brochures/creta-ev-brochure.pdf', highlights: 'The Creta Electric marks Hyundai\'s entry into the mass-market electric SUV segment. It offers a silent, quick driving experience with zero emissions. With a range of up to 473 km on a single charge, it\'s perfect for both city commutes and weekend getaways. The cabin is packed with connected car features, making it one of the most advanced SUVs in its class.' },
+        venue: { name: 'Venue', segment: 'SUV', img: 'assets/images/venue.png', desc: 'Compact SUV agility with smart connected tech, built for the city and beyond.', engine: '1.2L / 1.0L Turbo', transmission: '5MT / iMT / 7DCT', fuel: 'Petrol', mileage: '18.2 km/l', safety: '6 Airbags, ESC', colors: '8 shades', brochure: 'assets/brochures/venue-brochure.pdf', highlights: 'The Venue is a compact SUV that\'s perfect for city driving. Its small size makes it easy to maneuver through traffic, while the high ground clearance and robust build inspire confidence on rough roads. The Venue comes with a host of connected car features, including a voice-enabled infotainment system, making every journey convenient and enjoyable.' },
+        venue_n_line: { name: 'Venue N Line', segment: 'SUV', img: 'assets/images/Venue_n_line.png', desc: 'The performance-focused Venue — turbo punch, sportier styling and driver-first cabin.', engine: '1.0L Turbo GDi', transmission: '6iMT / 7DCT', fuel: 'Petrol', mileage: '18.0 km/l', safety: '6 Airbags, ESC', colors: '5 shades', brochure: 'assets/brochures/venue-n-line-brochure.pdf', highlights: 'The Venue N Line brings performance-focused flair to the compact SUV segment. With a 1.0L turbo engine and a sportier suspension setup, it offers a more engaging driving experience. The exterior and interior get N Line styling cues, including a unique body kit, sporty alloy wheels, and a driver-first cabin that puts the focus on performance.' },
+        verna: { name: 'Verna', segment: 'Sedan', img: 'assets/images/verna.png', desc: 'Elegant sculpting, premium comfort and a confident sedan silhouette.', engine: '1.5L NA / 1.5L Turbo', transmission: '6MT / IVT / 7DCT', fuel: 'Petrol', mileage: '18.0 km/l', safety: '6 Airbags, ADAS', colors: '6 shades', brochure: 'assets/brochures/verna-brochure.pdf', highlights: 'The Verna is a premium sedan that combines elegant design with a comfortable ride. Its sculpted exterior lines give it a dynamic and confident look. Inside, the cabin is spacious and refined, with premium materials and a host of comfort features. The Verna also offers a range of advanced safety features, including ADAS, making it a well-rounded choice for those who value both style and substance.' },
+        exter: { name: 'Exter', segment: 'SUV', img: 'assets/images/Exter.png', desc: 'Micro-SUV with a commanding stance, segment-first features and CNG option.', engine: '1.2L Kappa', transmission: '5MT / AMT', fuel: 'Petrol / CNG', mileage: '19.4 km/l', safety: '6 Airbags, ESC', colors: '7 shades', brochure: 'assets/brochures/exter-brochure.pdf', highlights: 'The Exter is a micro-SUV that offers a commanding road presence despite its compact size. It\'s the first vehicle in its segment to offer a CNG option, making it a practical choice for budget-conscious buyers. The Exter is packed with segment-first features, including a sunroof and a premium sound system, ensuring that you don\'t have to compromise on comfort and convenience.' },
+        alcazar: { name: 'Alcazar', segment: 'SUV', img: 'assets/images/Alcazar.png', desc: 'Three-row luxury tailored for family journeys with a bold, statement presence.', engine: '1.5L Turbo / 1.5L Diesel', transmission: '6MT / AT', fuel: 'Petrol / Diesel', mileage: '14.5 km/l', safety: '6 Airbags, ESC', colors: '5 shades', brochure: 'assets/brochures/alcazar-brochure.pdf', highlights: 'The Alcazar is a premium three-row SUV that\'s designed for families. It offers luxurious seating for up to 7 passengers, making it perfect for long journeys. The cabin is spacious and well-appointed, with features like a panoramic sunroof and ventilated seats. The Alcazar\'s bold exterior design ensures it makes a statement wherever it goes, while its powerful engines ensure a comfortable and confident drive.' },
+        i20_n_line: { name: 'i20 N Line', segment: 'Hatchback', img: 'assets/images/i20.png', desc: 'The hot hatch of the i20 line-up — turbo power, sportier suspension and N-line design cues.', engine: '1.0L T-GDi', transmission: '6MT / 7DCT', fuel: 'Petrol', mileage: '19.7 km/l', safety: '6 Airbags, ESC', colors: '5 shades', brochure: 'assets/brochures/i20-n-line-brochure.pdf', highlights: 'The i20 N Line is the sporty variant of the popular i20 hatchback. It features a powerful 1.0L turbo engine and a sportier suspension setup, making it a true hot hatch. The exterior gets N Line design cues, including a sporty body kit and unique alloy wheels. Inside, the cabin is driver-focused with sporty seats and an N Line steering wheel, ensuring an immersive driving experience.' },
+        aura: { name: 'Aura', segment: 'Sedan', img: 'assets/images/aura.png', desc: 'Compact sedan luxury with a purposeful stance and smart everyday practicality.', engine: '1.2L / 1.2L Turbo CNG', transmission: '5MT / AMT', fuel: 'Petrol / CNG', mileage: '20.5 km/l', safety: '6 Airbags, ESC', colors: '5 shades', brochure: 'assets/brochures/aura-brochure.pdf', highlights: 'The Aura is a compact sedan that offers luxury and practicality in a small package. Its purposeful stance gives it a confident look, while the spacious cabin offers comfort for both the driver and passengers. The Aura is available with both petrol and CNG options, making it a versatile choice for daily commuting. Its segment-leading fuel efficiency ensures that you can travel further without worrying about running costs.' },
+        grand_i10_nios: { name: 'Grand i10 Nios', segment: 'Hatchback', img: 'assets/images/i10.png', desc: 'Hyundai\u2019s value-packed entry hatchback — spacious cabin, strong features and low running costs.', engine: '1.2L Petrol', transmission: '5MT / AMT', fuel: 'Petrol / CNG', mileage: '20.3 km/l', safety: '6 Airbags, ESC', colors: '6 shades', brochure: 'assets/brochures/grand-i10-nios-brochure.pdf', highlights: 'The Grand i10 Nios is Hyundai\'s value-packed entry-level hatchback. It offers a spacious cabin with strong features, making it a practical choice for first-time car buyers. The Nios is known for its low running costs, thanks to its fuel-efficient engines. With a host of safety features, including 6 airbags, it offers peace of mind for you and your family.' }
+      };
+
+      var modal = document.querySelector('.modal');
+      var modalImg = document.getElementById('modal-image');
+      var modalTitle = document.getElementById('modal-title');
+      var modalSegment = document.getElementById('modal-segment');
+      var modalDesc = document.getElementById('modal-desc');
+      var modalHighlights = document.getElementById('modal-highlights');
+      var modalTransmission = document.getElementById('modal-transmission');
+      var modalFuel = document.getElementById('modal-fuel');
+      var modalMileage = document.getElementById('modal-mileage');
+      var modalSafety = document.getElementById('modal-safety');
+      var modalColors = document.getElementById('modal-colors');
+      var modalBrochure = document.getElementById('modal-brochure');
+
+      function openModal(key) {
+        var v = vehicleData[key];
+        if (!v) return;
+        modalImg.src = v.img;
+        modalImg.alt = 'Hyundai ' + v.name;
+        modalTitle.textContent = v.name;
+        modalSegment.textContent = v.segment;
+        modalDesc.textContent = v.desc;
+        modalHighlights.textContent = v.highlights || 'This model combines Hyundai\'s signature design with cutting-edge technology and reliable performance.';
+        modalTransmission.textContent = v.transmission;
+        modalFuel.textContent = v.fuel;
+        modalMileage.textContent = v.mileage;
+        modalSafety.textContent = v.safety;
+        modalColors.textContent = v.colors;
+        if (modalBrochure) { modalBrochure.setAttribute('href', v.brochure); }
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+      function closeModal() {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+      document.querySelectorAll('[data-vehicle]').forEach(function (el) {
+        el.addEventListener('click', function (e) {
+          e.preventDefault();
+          openModal(el.getAttribute('data-vehicle'));
+        });
+      });
+      var closeBtn = document.querySelector('.modal-close');
+      if (closeBtn) { closeBtn.addEventListener('click', closeModal); }
+      if (modal) {
+        modal.addEventListener('click', function (e) { if (e.target === modal) closeModal(); });
+      }
+      document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeModal(); });
+
+      /* ---------------- Contact form ---------------- */
+      var form = document.getElementById('enquiry-form');
+      if (form) {
+        form.addEventListener('submit', function (e) {
+          e.preventDefault();
+          var name = document.getElementById('f-name').value.trim();
+          var status = document.getElementById('form-status');
+          if (name) {
+            status.textContent = 'Thanks ' + name.split(' ')[0] + ', your enquiry is ready. Tap "Send via WhatsApp" to deliver it instantly.';
+          } else {
+            status.textContent = 'Thanks, your enquiry is ready. Tap "Send via WhatsApp" to deliver it instantly.';
+          }
+        });
+      }
+
+      /* ---------------- Ripple on buttons ---------------- */
+      document.querySelectorAll('.btn').forEach(function (btn) {
+        btn.style.position = 'relative';
+        btn.style.overflow = 'hidden';
+        btn.addEventListener('click', function (e) {
+          var rect = this.getBoundingClientRect();
+          var ripple = document.createElement('span');
+          var size = Math.max(rect.width, rect.height);
+          ripple.className = 'ripple';
+          ripple.style.width = ripple.style.height = size + 'px';
+          ripple.style.left = (e.clientX - rect.left - size / 2) + 'px';
+          ripple.style.top = (e.clientY - rect.top - size / 2) + 'px';
+          this.appendChild(ripple);
+          setTimeout(function () { ripple.remove(); }, 700);
+        });
+      });
+
+      /* ---------------- Magnetic buttons (desktop hover only) ---------------- */
+      if (window.matchMedia('(hover: hover)').matches) {
+        document.querySelectorAll('.magnetic').forEach(function (el) {
+          el.addEventListener('mousemove', function (e) {
+            var rect = el.getBoundingClientRect();
+            var x = e.clientX - rect.left - rect.width / 2;
+            var y = e.clientY - rect.top - rect.height / 2;
+            el.style.transform = 'translate(' + (x * 0.18) + 'px, ' + (y * 0.3) + 'px)';
+          });
+          el.addEventListener('mouseleave', function () {
+            el.style.transform = 'translate(0, 0)';
+          });
+        });
+      }
+    });
+  </script>
 </body>
 
 </html>

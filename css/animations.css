@@ -1,0 +1,38 @@
+.aurora {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 15% 10%, rgba(255,255,255,.18), transparent 24%),
+              radial-gradient(circle at 85% 20%, rgba(192,192,192,.16), transparent 32%),
+              radial-gradient(circle at 50% 100%, rgba(255,255,255,.1), transparent 28%);
+  animation: drift 10s ease-in-out infinite alternate;
+}
+
+@keyframes drift {
+  from { transform: translate3d(-2%, -1%, 0) scale(1); }
+  to { transform: translate3d(2%, 1%, 0) scale(1.05); }
+}
+
+@keyframes floaty {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+}
+
+.floaty { animation: floaty 6s ease-in-out infinite; }
+
+.glow { box-shadow: 0 0 0 1px rgba(255,255,255,.14), 0 18px 40px rgba(0,0,0,.22); }
+
+.particle {
+  position: fixed;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  pointer-events: none;
+  background: rgba(255,255,255,.8);
+  box-shadow: 0 0 16px rgba(192,192,192,.35);
+  animation: driftParticle 8s linear infinite;
+}
+
+@keyframes driftParticle {
+  0% { transform: translate3d(0, 0, 0) scale(1); opacity: .8; }
+  100% { transform: translate3d(120px, -140px, 0) scale(0.3); opacity: 0; }
+}
