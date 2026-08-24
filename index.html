@@ -2259,7 +2259,7 @@
               </div>
               <div class="form-row">
                 <div class="form-field"><label for="f-model">Interested model</label>
-                  <select id="f-model">
+                  <select id="f-model" style="color:var(--muted);" required>
                     <option>Creta</option>
                     <option>Creta N Line</option>
                     <option>Creta Electric</option>
@@ -2280,7 +2280,8 @@
                     placeholder="Tell me what you're looking for — budget, timeline, exchange car, etc."></textarea>
                 </div>
               </div>
-              <button type="submit" class="btn btn-primary btn-block magnetic">Send Enquiry</button>
+              <button type="submit" class="btn btn-primary btn-block magnetic" id="send-enquiry-btn">Send
+                Enquiry</button>
               <p id="form-status" style="margin-top:.9rem; font-size:.85rem; color:var(--royal);"></p>
             </form>
           </div>
@@ -2317,11 +2318,6 @@
       </div>
       <div class="footer-bottom">
         <span>© 2026 Joel — Hyundai Sales Executive. All rights reserved.</span>
-        <div class="footer-socials">
-          <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-        </div>
       </div>
     </div>
   </footer>
@@ -2504,17 +2500,35 @@
       }
       document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeModal(); });
 
-      /* Enquiry form */
+      /* Enquiry form - redirect to WhatsApp */
       var form = document.getElementById('enquiry-form');
       if (form) {
         form.addEventListener('submit', function (e) {
           e.preventDefault();
+
           var name = document.getElementById('f-name').value.trim();
+          var phone = document.getElementById('f-phone').value.trim();
+          var model = document.getElementById('f-model').value;
+          var message = document.getElementById('f-msg').value.trim();
+
           var status = document.getElementById('form-status');
-          if (name) {
-            status.textContent = 'Thanks ' + name.split(' ')[0] + ', your enquiry is ready. Tap "Send via WhatsApp" to deliver it instantly.';
+          if (name && phone) {
+            // Construct the WhatsApp message
+            var whatsappMessage = "Hi Joel,%0A%0A";
+            whatsappMessage += "*New Enquiry from Website*%0A%0A";
+            whatsappMessage += "👤 *Name:* " + encodeURIComponent(name) + "%0A";
+            whatsappMessage += "📱 *Phone:* " + encodeURIComponent(phone) + "%0A";
+            whatsappMessage += "🚗 *Model Interested:* " + encodeURIComponent(model) + "%0A";
+            if (message) {
+              whatsappMessage += "💬 *Message:* " + encodeURIComponent(message);
+            }
+
+            // Redirect to WhatsApp with the message
+            var whatsappUrl = "https://wa.me/919489940353?text=" + whatsappMessage;
+            window.open(whatsappUrl, '_blank');
+            status.textContent = '✓ Redirecting to WhatsApp...';
           } else {
-            status.textContent = 'Thanks, your enquiry is ready. Tap "Send via WhatsApp" to deliver it instantly.';
+            status.textContent = '⚠️ Please fill in your name and phone number.';
           }
         });
       }
